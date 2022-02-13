@@ -30,7 +30,7 @@ Please note that dataset folders should be organized as follows:
 
 Then, you can launch experiments by typing:
 
-`python Launch_Experiments.py --config-file <config> --dataset-name <name> --result-folder <your-result-folder> --debug`
+`python Launch_Experiments.py --config-file <config> --dataset-name <name> --result-folder <your-result-folder>`
 
 Where `<config>` is your config file (e.g. config_GIN.yml), and `<name>` is the dataset name chosen as before.
 

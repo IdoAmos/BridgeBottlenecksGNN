@@ -12,7 +12,7 @@ def get_args():
     parser.add_argument('--outer-processes', dest='outer_processes', default=2)
     parser.add_argument('--inner-folds', dest='inner_folds', default=5)
     parser.add_argument('--inner-processes', dest='inner_processes', default=1)
-    parser.add_argument('--debug', action="store_true", dest='debug')
+    parser.add_argument('--debug', action="store_false", dest='debug')
     return parser.parse_args()
 
 
